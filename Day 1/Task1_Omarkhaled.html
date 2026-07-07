@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omar Khaled Task Day 1 ITI</title>
+</head>
+<body>
+    <h1>Welcome to <strong>Omar Khaled</strong>'s Profile</h1>
+    <p>
+        I am <strong>Omar Khaled</strong>, I am 22 Years Old, I am a college student studying electronics and Communication engineering at 6th October University
+    </p>
+
+    <h2>My Goals</h2>
+    <ol>
+        <li>Master frontend web development with ITI</li>
+        <li>Build successful professional career</li>
+        <li>I wants to be a good Leader in my life</li>
+    </ol>
+
+    <h2>My Hobbies</h2>
+    <ul>
+        <li>Reading books</li>
+        <li>Swimming</li>
+        <li>Football</li>
+    </ul>
+
+    <h3>My Favorite Quote</h3>
+    <blockquote>
+    <p>"The only way to do great work is to love what you do."</p>
+    </blockquote>
+
+    <hr><!-- This draws a thin line across the screen -->
+
+    <h2>Connect With Me</h2>
+    <!-- The target="_blank" attribute forces the link to open in a new tab -->
+    <p>
+    One of my favorite platforms to visit is LinkedIn, you can find me on
+    <a href="https://www.linkedin.com/in/omar-khaled-395019308/" target="_blank">LinkedIn</a> for professional networking and career opportunities.
+    </p>
+
+    <hr><!-- This draws a thin line across the screen -->
+
+    <!-- Form with Fieldset, Legend, Name, Password, and I custom Alert after Submitting -->
+    <h2>Get In Touch</h2>
+
+    <form onsubmit="alert('Thank you dear ' + document.getElementById('name').value + ' loves you'); return false;">
+    
+        <fieldset>
+        <legend>Contact Form</legend>
+        <p>
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        </p>
+        <p>
+        <label for="password">Password:</label>
+        <input type="password" id="password" required>
+        </p>
+        <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic page setup -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My personal portfolio page built with pure HTML">
+    <title>My Portfolio</title>
+</head>
+<body>
+
+    <!-- Navigation  -->
+    <header>
+        <span>Omar Portfolio</span>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#courses">Courses</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+            <a href="#faq">FAQ</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+
+        <!-- About Section -->
+        <section id="about">
+            <h1>Hi, I'm Omar Khaled</h1>
+            <p>
+                I'm an engineering student, and right now I'm doing a web
+                development internship at ITI, learning React. I also worked in
+                sales and led teams at AIESEC, so I know how to talk to people
+                and get things done, not just how to code.
+            </p>
+            <img src="c:\Users\dell\Desktop\1773150880441.jpeg" alt="Photo of Omar Khaled">
+        </section>
+
+        <hr>
+
+        <!-- Skills Section  -->
+        <section id="skills">
+            <h2>My Skills</h2>
+
+            <p>Right now I use:</p>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>A bit of JavaScript</li>
+                <li>React</li>
+            </ul>
+
+            <p>This is how I learned it, one step at a time:</p>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React (learning it now at ITI)</li>
+            </ol>
+
+            <p>
+                <strong>HTML</strong> feels easy to me now.
+                <em>React</em> is what I'm working on at the moment, and my
+                <mark>goal</mark> is to build a real project with it soon.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- Courses Table -->
+        <section id="courses">
+            <h2>My Courses</h2>
+
+            <table>
+                <caption>Courses I have taken or I'm taking</caption>
+                <thead>
+                    <tr>
+                        <th>Course Name</th>
+                        <th>Duration</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML Fundamentals</td>
+                        <td>2 weeks</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <td>React Internship - ITI</td>
+                        <td>2 months</td>
+                        <td>In Progress</td>
+                    </tr>
+                    <tr>
+                        <td>MATLAB for Engineers</td>
+                        <td colspan="2">Completed</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Total Courses</td>
+                        <td>3</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <h2>Gallery</h2>
+
+            <figure>
+                <img src="c:\Users\dell\Pictures\Screenshots\Screenshot 2026-07-08 004017.png" alt="Screenshot of my first HTML project">
+                <figcaption>My first HTML project</figcaption>
+            </figure>
+
+            <figure>
+                <img src="c:\Users\dell\Pictures\Screenshots\Screenshot 2026-07-08 004151.png" alt="Screenshot of a table layout I built">
+                <figcaption>Practicing tables</figcaption>
+            </figure>
+
+            <figure>
+                <img src="c:\Users\dell\Pictures\Screenshots\Screenshot 2026-07-08 004258.png" alt="Screenshot of a contact form I built">
+                <figcaption>Practicing forms</figcaption>
+            </figure>
+        </section>
+
+        <hr>
+
+        <!-- Contact Form Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <form action="#" method="post">
+
+                <label for="fullname">Full Name:</label><br>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your name" required>
+                <br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                <br><br>
+
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="01xxxxxxxxx">
+                <br><br>
+
+                <label for="birthdate">Date of Birth:</label><br>
+                <input type="date" id="birthdate" name="birthdate">
+                <br><br>
+
+                <label for="subject">Subject:</label><br>
+                <select id="subject" name="subject">
+                    <option value="general">General Question</option>
+                    <option value="job">Job Opportunity</option>
+                    <option value="feedback">Feedback</option>
+                </select>
+                <br><br>
+
+                <span>Preferred Contact Method:</span><br>
+                <input type="radio" id="contact-email" name="contact-method" value="email">
+                <label for="contact-email">Email</label>
+
+                <input type="radio" id="contact-phone" name="contact-method" value="phone">
+                <label for="contact-phone">Phone</label>
+                <br><br>
+
+                <input type="checkbox" id="agree" name="agree">
+                <label for="agree">I agree to the terms and conditions</label>
+                <br><br>
+
+                <label for="message">Your Message:</label><br>
+                <textarea id="message" name="message" rows="5" cols="30" placeholder="Write your message here..."></textarea>
+                <br><br>
+
+                <button type="submit">Send Message</button>
+                <button type="reset">Clear Form</button>
+
+            </form>
+        </section>
+
+        <hr>
+
+        <!-- FAQ Section -->
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+
+            <details>
+                <summary>What do you know so far?</summary>
+                <p>HTML, CSS, a bit of JavaScript, and I'm learning React now.</p>
+            </details>
+
+            <details>
+                <summary>Can I contact you for work?</summary>
+                <p>Yes! Just fill out the form above and I'll get back to you.</p>
+            </details>
+
+            <details>
+                <summary>Where do you live?</summary>
+                <p>Cairo, Egypt.</p>
+            </details>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <address>
+            Email: omirkhaled@gmail.com<br>
+            Location: Cairo, Egypt
+        </address>
+
+        <p>&copy; 2026 Omar's Portfolio. All rights reserved.</p>
+
+        <p>
+            <a href="https://github.com/omirkhaled" target="_blank">GitHub</a> &nbsp;|&nbsp;
+            <a href="https://www.linkedin.com/in/omar-khaled-395019308/" target="_blank">LinkedIn</a>
+        </p>
+    </footer>
+
+</body>
+</html>
