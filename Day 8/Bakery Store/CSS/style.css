@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* Hero section */
+.hero {
+  background-image: url("../Images/photo-1509440159596-0249088772ff.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 20px 40px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+}
+
+.hero-content {
+  padding: 80px 0;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: whitesmoke;
+  border: none;
+}
+
+/* About section */
+.about {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+}
+
+.about img {
+  width: 300px;
+}
