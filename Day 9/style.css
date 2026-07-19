@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    text-align: center;
+    padding: 15px;
+    width: 30%;
+}
+
+.item img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.item h4 {
+    margin-top: 10px;
+}
+
+.item p {
+    margin-top: 10px;
+}
